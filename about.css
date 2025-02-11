@@ -1,5 +1,26 @@
 /* General Styles */
+
+
+
+
+.Title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Impact, Haettenschweiler;
+  text-align: center;
+  font-size: 100px;
+  color: #3ea67c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px; /* Space between logo and text */
+}
+
+.Title img {
+  width: 80px;  /* Adjust as needed */
+  height: 80px; /* Adjust as needed */
+}
+
 /* Full-page background image */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
