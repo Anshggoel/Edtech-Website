@@ -9,6 +9,20 @@
 <body>
     <div class="container">
         <h1>Student Query Page</h1>
+        <button id="chatbotToggle" class="chatbot-toggle">AI Assistant</button>
+        
+        <div class="chatbot-container" id="chatbotContainer">
+            <div class="chat-header">
+                <h3>StudyHive AI Assistant</h3>
+                <button class="close-chat">×</button>
+            </div>
+            <div class="chat-messages" id="chatMessages"></div>
+            <div class="chat-input">
+                <textarea id="userMessage" placeholder="Ask me anything about your studies..."></textarea>
+                <button id="sendMessage">Send</button>
+            </div>
+        </div>
+
         <div class="query-form">
             <h2>Ask a Question</h2>
             <form id="queryForm">
